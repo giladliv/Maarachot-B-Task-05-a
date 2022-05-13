@@ -23,12 +23,12 @@ OrgChart& OrgChart::add_sub(string head, string name)
     return (*this);
 }
 
-ostream& operator<<(ostream& os, const OrgChart& org)
+ostream& ariel::operator<<(ostream& os, const OrgChart& org)
 {
     return os;
 }
 
-// begin and end parts
+//begin and end parts
 
 OrgChart::iterator OrgChart::begin()
 {
